@@ -1,0 +1,144 @@
+*,html,body{
+  margin: 0;
+  padding: 0;
+  font-family: Arial,Monospace,Sans-Serif;
+}
+.container{
+  display: flex;
+  background-color: #aeaeae;
+  width: 100% ;
+  height: 1200px ;
+  padding: 0;
+  margin: 0;
+}
+.menu-bar{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0;
+  position: fixed;
+  width: 100%;
+  height: 30px;
+  background-color: black;
+}
+.menu-bar ul{
+  display: flex;
+  align-items: center;
+  justify-content: row;
+}
+.menu-bar img{
+  width : 30px;
+  border-radius: 20px;
+}
+.menu-bar ul li{
+  margin: 5px 5px;
+  padding-bottom: 10px;
+  width: 75px;
+  height: 40px;
+  list-style-type: none;
+  border-radius: 10px;
+}
+.menu-bar ul li a{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px ;
+  color:white;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+
+/* TOMBOL PESAN*/
+.pesan_sekarang{
+  margin-top: 120px;
+  margin-left: 10px;
+  background-color: lightgreen;
+  width: 170px;
+  height: 30px;
+  box-shadow: inset 0 0 0 2px green;
+}
+.pesan_sekarang p{
+  display: inline-block;
+  text-align: center;
+  margin-top: 4px;
+  margin-left: 9px;
+}
+.pesan_sekarang p a{
+  color: white;
+  text-decoration: none;
+  margin-top: 3px;
+}
+
+
+/* ISI */
+.maintenance .main_image{
+  margin: 10px;
+  margin-top: 40px ;
+  width: 340px;
+  height: 340px;
+  background-image: url('../images/hack.jpg');
+  background-size: cover;
+  background-position: -70px 0px;
+  border-radius : 0 90px 90px 90px ;
+}
+.maintenance .main_image #galuh{
+  font-style: italic;
+  color: lightblue;
+  font-size: 50px;
+  text-shadow: 0 20px 20px black;
+  background-color: rgba(0,0,0,0);
+}
+.maintenance .main_image #cyber{
+  font-size: 50px;
+  color: lightgreen;
+  font-style: bold;
+  text-shadow: 0 20px 20px black;
+}
+
+.deskripsi{
+  width: 100%;
+  height: 400px;
+  background-color: white;
+  padding: 10px;
+  padding-right: 0;
+}
+.deskripsi ul li{
+  list-style-type: square;
+}
+.deskripsi span{
+  font-style: bold;
+  color: gold;
+}
+
+.galuhpng{
+  width: 325px;
+  height: 325px;
+  padding-left: 15px;
+}
+.galuhpng img{
+  width: 100%;
+  height: 100%;
+  border-radius: 30px;
+}
+/* FOOTER */
+.footer{
+  background-color: black;
+  height: 150px;
+  padding: 0;
+  margin: 0;
+}
+.footer p{
+  color: white;
+  font-size: 15px;
+  font-style: bold;
+  padding: 0px 12px;
+}
+.footer ul {
+  color: white;
+  padding-left: 15px;
+}
+.footer ul li{
+  margin: 10px;
+  font-size: 12px;
+}
